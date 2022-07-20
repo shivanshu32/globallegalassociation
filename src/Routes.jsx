@@ -43,8 +43,8 @@ const AppRouter = () => {
         <Router>
             {renderNavigation()}
             <Switch>
-                <Route path="/" exact component={HomeDefault} />
-                <Route path="/home-two" exact component={HomeTwo} />
+                <Route path="/" exact component={HomeTwo} />
+                <Route path="/home-two" exact component={HomeDefault} />
                 <Route path="/home-three" exact component={HomeThree} />
                 <Route path="/home-four" exact component={HomeFour} />
                 <Route path="/home-five" exact component={HomeFive} />

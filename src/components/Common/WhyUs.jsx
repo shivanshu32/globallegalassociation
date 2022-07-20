@@ -15,7 +15,7 @@ class WhyUs extends React.Component {
                                             <i className="icofont-headphone-alt-1"></i>
                                         </div>
                                         <h3>Great Speakers</h3>
-                                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             
                                         <Link to="#" className="btn btn-primary">Read More</Link>
                                     </div>
@@ -33,7 +33,7 @@ class WhyUs extends React.Component {
                                             <i className="icofont-network-tower"></i>
                                         </div>
                                         <h3>Networking</h3>
-                                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             
                                         <Link to="#" className="btn btn-primary">Read More</Link>
                                     </div>
@@ -51,7 +51,7 @@ class WhyUs extends React.Component {
                                             <i className="icofont-users-social"></i>
                                         </div>
                                         <h3>New People</h3>
-                                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             
                                         <Link to="#" className="btn btn-primary">Read More</Link>
                                     </div>
@@ -68,8 +68,8 @@ class WhyUs extends React.Component {
                                         <div className="icon">
                                             <i className="icofont-wink-smile"></i>
                                         </div>
-                                        <h3>Have Fun</h3>
-                                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                        <h3>Stay Updated</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             
                                         <Link to="#" className="btn btn-primary">Read More</Link>
                                     </div>

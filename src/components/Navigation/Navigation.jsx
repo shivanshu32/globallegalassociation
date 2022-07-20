@@ -52,7 +52,7 @@ class Navigation extends React.Component {
                     <nav className="navbar navbar-expand-md navbar-light">
                         <div className="container">
                             <Link className="navbar-brand" to="/">
-                                <img src={logo} alt="logo" />
+                                <img src='./gla_logo.png' alt="logo" />
                             </Link>
 
                             <button 
@@ -73,14 +73,14 @@ class Navigation extends React.Component {
                                     <li className="nav-item">
                                         <Link 
                                             exact="true" 
-                                            to="#" 
+                                            to="/" 
                                             onClick={this.toggleOpen} 
                                             className="nav-link"
                                         >
                                             Home
                                         </Link>
 
-                                        <ul className={menuClass}>
+                                        {/* <ul className={menuClass}>
                                             <li className="nav-item">
                                                 <NavLink 
                                                     exact
@@ -131,10 +131,10 @@ class Navigation extends React.Component {
                                                     Home Page 5
                                                 </NavLink>
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link 
                                             to="#" 
                                             onClick={this.toggleOpen} 
@@ -347,7 +347,7 @@ class Navigation extends React.Component {
                                                 </NavLink>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li> */}
 
                                     <li className="nav-item">
                                         <Link 
@@ -357,7 +357,7 @@ class Navigation extends React.Component {
                                         >
                                             Speakers
                                         </Link>
-                                        <ul className={menuClass}>
+                                        {/* <ul className={menuClass}>
                                             <li className="nav-item">
                                                 <NavLink 
                                                     to="/speakers-1" 
@@ -387,18 +387,18 @@ class Navigation extends React.Component {
                                                     Speakers 3
                                                 </NavLink>
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
 
                                     <li className="nav-item">
                                         <Link 
-                                            to="/schedule-1" 
+                                            to="#" 
                                             className="nav-link"
                                             onClick={this.toggleOpen}
                                         >
                                             Schedule
                                         </Link>
-                                        <ul className={menuClass}>
+                                        {/* <ul className={menuClass}>
                                             <li className="nav-item">
                                                 <NavLink 
                                                     to="/schedule-1" 
@@ -439,14 +439,14 @@ class Navigation extends React.Component {
                                                 </NavLink>
                                             </li>
                                             
-                                        </ul>
+                                        </ul> */}
                                     </li>
 
                                     <li className="nav-item">
                                         <NavLink 
-                                            to="/sponsors" 
+                                            to="#" 
                                             className="nav-link" 
-                                            onClick={this.toggleNavbar}
+                                            onClick={this.toggleOpen}
                                         >
                                             Sponsor
                                         </NavLink>
@@ -460,7 +460,7 @@ class Navigation extends React.Component {
                                         >
                                             Blog
                                         </Link>
-                                        <ul className={menuClass}>
+                                        {/* <ul className={menuClass}>
                                             <li className="nav-item">
                                                 <NavLink 
                                                     to="/blog-1" 
@@ -510,14 +510,14 @@ class Navigation extends React.Component {
                                                     Blog Details
                                                 </NavLink>
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
 
                                     <li className="nav-item">
                                         <NavLink 
-                                            to="/contact" 
+                                            to="#" 
                                             className="nav-link" 
-                                            onClick={this.toggleNavbar}
+                                            onClick={this.toggleOpen}
                                         >
                                             Contact
                                         </NavLink>
@@ -528,7 +528,7 @@ class Navigation extends React.Component {
                                     <ul>
                                         <li>
                                             <NavLink 
-                                                to="/pricing-1" 
+                                                to="#" 
                                                 className="btn btn-primary" 
                                                 onClick={this.toggleNavbar}
                                             >

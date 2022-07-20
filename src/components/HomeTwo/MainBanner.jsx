@@ -17,7 +17,7 @@ class MainBanner extends React.Component {
                 <ModalVideo 
                     channel='youtube' 
                     isOpen={this.state.isOpen} 
-                    videoId='cRXm1p-CNyk' 
+                    videoId='xwAYL-9pl1k' 
                     onClose={() => this.setState({isOpen: false})} 
                 />
 
@@ -27,10 +27,10 @@ class MainBanner extends React.Component {
                             <div className="container">
                                 <div className="main-banner-content banner-content-center">
                                     <p>Are you <span>ready</span> to attend?</p>
-                                    <h1>World Advanced <span>Biggest</span> <br /> Conference <b>2</b><b>0</b><b>2</b><b>0</b></h1>
+                                    <h1>Global Legal <span>Association</span> <br /> Conference <b>2</b><b>0</b><b>2</b><b>3</b></h1>
                                     <ul>
-                                        <li><i className="icofont-compass"></i> Yellow Street, United State</li>
-                                        <li><i className="icofont-calendar"></i> 23-27 Jan, 2020</li>
+                                        <li><i className="icofont-compass"></i> Dubai</li>
+                                        <li><i className="icofont-calendar"></i> 7-11 Jan, 2023</li>
                                     </ul>
                                     <div className="button-box">
                                         <Link to="#" className="btn btn-primary">Buy Tickets Now!</Link>

@@ -38,23 +38,23 @@ class HomeTwo extends React.Component {
                 {/* Why Choose Us Area */}
                 <WhyUs />
                 {/* Speakers Area */}
-                <Speakers />
+                {/* <Speakers /> */}
                 {/* Schedule Area */}
-                <EventSchedules />
+                {/* <EventSchedules /> */}
                 {/* FunFacts Area */}
-                <FunFact />
+                {/* <FunFact /> */}
                 {/* Pricing Area */}
-                <Pricing />
+                {/* <Pricing /> */}
                 {/* Partner Area */}
-                <Partner />
+                {/* <Partner /> */}
                 {/* Blog Area */}
-                <LatesNews />
+                {/* <LatesNews /> */}
                 {/* Buy Tickets Area */}
-                <BuyTicket />
+                {/* <BuyTicket /> */}
                 {/* Subscribe Area */}
-                <Subscribe />
+                {/* <Subscribe /> */}
                 {/* Footer Area */}
-                <Footer />
+                {/* <Footer /> */}
                 {/* Back Top top */}
                 <GoTop scrollStepInPx="50" delayInMs="16.66" />
             </React.Fragment>

@@ -4,15 +4,15 @@ import MainBanner from '../HomeTwo/MainBanner';
 import CountDown from '../HomeTwo/CountDown';
 import About from '../HomeTwo/About';
 import WhyUs from '../Common/WhyUs';
-import Speakers from '../HomeTwo/Speakers';
-import EventSchedules from '../HomeTwo/EventSchedules';
-import FunFact from '../Common/FunFact';
-import Pricing from '../HomeTwo/Pricing';
-import Partner from '../Common/Partner';
-import LatesNews from '../HomeTwo/LatestNews';
-import BuyTicket from '../Common/BuyTicket';
-import Subscribe from '../Common/Subscribe';
-import Footer from '../Common/Footer';
+// import Speakers from '../HomeTwo/Speakers';
+// import EventSchedules from '../HomeTwo/EventSchedules';
+// import FunFact from '../Common/FunFact';
+// import Pricing from '../HomeTwo/Pricing';
+// import Partner from '../Common/Partner';
+// import LatesNews from '../HomeTwo/LatestNews';
+// import BuyTicket from '../Common/BuyTicket';
+// import Subscribe from '../Common/Subscribe';
+// import Footer from '../Common/Footer';
 import GoTop from '../Shared/GoTop';
  
 class HomeTwo extends React.Component {

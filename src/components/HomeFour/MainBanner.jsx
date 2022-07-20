@@ -1,7 +1,7 @@
 import React from 'react';
 import OwlCarousel from 'react-owl-carousel3';
 // import VisibilitySensor from "react-visibility-sensor";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
 
 const options = {

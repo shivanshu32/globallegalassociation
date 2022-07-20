@@ -39,7 +39,7 @@ class MainBanner extends React.Component {
                                             to="#" 
                                             className="video-btn popup-youtube"
                                         >
-                                            <i className="icofont-ui-play"></i> Watch Pormo Video
+                                            <i className="icofont-ui-play"></i> Watch Promo Video
                                         </Link>
                                     </div>
                                 </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import CountUp from 'react-countup';
-import VisibilitySensor from "react-visibility-sensor";
+// import VisibilitySensor from "react-visibility-sensor";
  
 class FunFact extends React.Component {
     state = {
@@ -24,7 +24,7 @@ class FunFact extends React.Component {
                                     <i className="icofont-focus"></i>
                                 </div>
                                 <h3 className="odometer">
-                                    <VisibilitySensor
+                                    {/* <VisibilitySensor
                                         onChange={this.onVisibilityChange}
                                         offset={{
                                             top: 10
@@ -40,7 +40,7 @@ class FunFact extends React.Component {
                                             }
                                             duration={3}
                                         />
-                                    </VisibilitySensor>
+                                    </VisibilitySensor> */}
                                 </h3>
                                 <p>Total Topics</p>
                             </div>
@@ -52,7 +52,7 @@ class FunFact extends React.Component {
                                     <i className="icofont-microphone"></i>
                                 </div>
                                 <h3 className="odometer">
-                                    <VisibilitySensor
+                                    {/* <VisibilitySensor
                                         onChange={this.onVisibilityChange}
                                         offset={{
                                             top: 10
@@ -68,7 +68,7 @@ class FunFact extends React.Component {
                                             }
                                             duration={3}
                                         />
-                                    </VisibilitySensor>
+                                    </VisibilitySensor> */}
                                 </h3>
                                 <p>Total Speakers</p>
                             </div>
@@ -80,7 +80,7 @@ class FunFact extends React.Component {
                                     <i className="icofont-copy"></i>
                                 </div>
                                 <h3 className="odometer">
-                                    <VisibilitySensor
+                                    {/* <VisibilitySensor
                                         onChange={this.onVisibilityChange}
                                         offset={{
                                             top: 10
@@ -96,7 +96,7 @@ class FunFact extends React.Component {
                                             }
                                             duration={3}
                                         />
-                                    </VisibilitySensor>
+                                    </VisibilitySensor> */}
                                 </h3>
                                 <p>Sponsors</p>
                             </div>
@@ -108,7 +108,7 @@ class FunFact extends React.Component {
                                     <i className="icofont-users-social"></i>
                                 </div>
                                 <h3 className="odometer">
-                                    <VisibilitySensor
+                                    {/* <VisibilitySensor
                                         onChange={this.onVisibilityChange}
                                         offset={{
                                             top: 10
@@ -124,7 +124,7 @@ class FunFact extends React.Component {
                                             }
                                             duration={3}
                                         />
-                                    </VisibilitySensor>
+                                    </VisibilitySensor> */}
                                 </h3>
                                 <p>Total Attendance</p>
                             </div>

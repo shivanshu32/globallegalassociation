@@ -1,6 +1,6 @@
 import React from 'react';
 import OwlCarousel from 'react-owl-carousel3';
-import VisibilitySensor from "react-visibility-sensor";
+// import VisibilitySensor from "react-visibility-sensor";
 import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
 
@@ -43,7 +43,7 @@ class MainBanner extends React.Component {
                         <div className="d-table">
                             <div className="d-table-cell">
                                 <div className="container">
-                                    <VisibilitySensor>
+                                    {/* <VisibilitySensor>
                                         {({ isVisible }) => (
                                             <div className="main-banner-content">
                                                 <p
@@ -89,7 +89,7 @@ class MainBanner extends React.Component {
                                                 </div>
                                             </div>
                                         )}
-                                    </VisibilitySensor>
+                                    </VisibilitySensor> */}
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ class MainBanner extends React.Component {
                         <div className="d-table">
                             <div className="d-table-cell">
                                 <div className="container">
-                                    <VisibilitySensor>
+                                    {/* <VisibilitySensor>
                                         {({ isVisible }) => (
                                             <div className="main-banner-content banner-content-center">
                                                 <p
@@ -145,7 +145,7 @@ class MainBanner extends React.Component {
                                                 </div>
                                             </div>
                                         )}
-                                    </VisibilitySensor>
+                                    </VisibilitySensor> */}
                                 </div>
                             </div>
                         </div>
@@ -155,7 +155,7 @@ class MainBanner extends React.Component {
                         <div className="d-table">
                             <div className="d-table-cell">
                                 <div className="container">
-                                    <VisibilitySensor>
+                                    {/* <VisibilitySensor>
                                         {({ isVisible }) => (
                                             <div className="main-banner-content">
                                                 <p
@@ -201,7 +201,7 @@ class MainBanner extends React.Component {
                                                 </div>
                                             </div>
                                         )}
-                                    </VisibilitySensor>
+                                    </VisibilitySensor> */}
                                 </div>
                             </div>
                         </div>
